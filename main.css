@@ -6,6 +6,19 @@ header{
 main{
     min-height: 800px;
 }
+nav{
+    & ul{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        & li{
+            display: inline-block;
+            &:hover{
+                background-color: #4ae363;
+            }
+        }
+    }
+}
 footer{
     background-color: rgb(222, 248, 248);
     height: 60px;
